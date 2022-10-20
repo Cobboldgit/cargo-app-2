@@ -1,0 +1,111 @@
+:root {
+  --dark: #252525;
+  --main: #ff892f;
+  --main_light: #fcd9bf;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.getStartedbtn {
+  background-color: var(--dark);
+  border-radius: 50px;
+  height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* width: 300px; */
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Gotham", "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--dark);
+  overflow-x: hidden;
+}
+
+.getStarted .hero_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.getStarted .button_container {
+  justify-content: flex-end;
+}
+
+.getStarted .hero_section .bg {
+  background: url(../public/images/bgimage.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 539px;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.getStarted .hero_main {
+  margin-top: 100px;
+}
+
+.getStarted .hero_section .image img {
+  /* height: 409px;
+  width: 700px; */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: drop-shadow(-5px 124px 19px rgba(0, 0, 0, 0.25));
+}
+
+.getStarted .hero_section .text {
+  text-align: left;
+  position: relative;
+  top: 100px;
+}
+
+.getStarted .hero_section .text div:nth-child(1) {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.getStarted .hero_section .text div:nth-child(2) {
+  font-size: 24px;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+.why {
+  width: 100%;
+  background: var(--main_light);
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.why .heading {
+  color: var(--main);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.why .card {
+  background: transparent;
+  border: none;
+}
+
+.why .card-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--main);
+}
+
+.why .card-text {
+  font-size: 24px;
+}
