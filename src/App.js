@@ -1,13 +1,12 @@
 import logo from "./logo.svg";
-import "./App.css";
-import Getstarted from "./pages/Getstarted";
+import Router from "./router/Router";
 
-export const brandName = "Frakt"
+export const brandName = "Frakt";
 
 function App() {
   return (
     <div className="App">
-      <Getstarted />
+      <Router/>
     </div>
   );
 }
