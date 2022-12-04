@@ -16,7 +16,7 @@ function Getstarted() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="button_container" id="basic-navbar-nav">
               <Nav className="nav_link">
-                <Link to="signup">
+                <Link to="/signup">
                   <Getstartedbtn />
                 </Link>
               </Nav>

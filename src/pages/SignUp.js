@@ -19,7 +19,22 @@ function SignUp() {
           height: "100vh",
         }}
       >
-        <Col className="leftSide"></Col>
+        <Col className="leftSide">
+          <div className="top">
+            <div className="brand">{brandName}</div>
+            <div className="text">
+              <span>Welcome to </span>
+              <br />
+              <span>{brandName}</span>
+              <br />
+              lorem the is to come nad code to cafe sde sate is to come go there
+              and is my friend mom augustine typing verpy fast and ok
+            </div>
+          </div>
+          <div className="image_container">
+            <img src="../../images/vint-truck.png" className="image" />
+          </div>
+        </Col>
         <Col className="rightSide">
           <Container>
             <Row>

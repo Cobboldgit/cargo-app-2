@@ -1,7 +1,50 @@
 .leftSide {
   background: linear-gradient(var(--main), var(--main_light));
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: default;
 }
+
+.leftSide .top {
+  margin-left: 100px;
+}
+
+.leftSide .top .text {
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  width: 40%;
+  line-height: 15px;
+}
+
+.leftSide .top .text span:nth-child(1) {
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.leftSide .top .text span:nth-child(3) {
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.leftSide .image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSide .image {
+  width: 80%;
+}
+
 .rightSide {
 }
 
@@ -20,7 +63,7 @@
   align-items: center;
   width: 60px;
   cursor: pointer;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .rightSide .top .back:hover {
